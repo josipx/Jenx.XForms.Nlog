@@ -10,9 +10,9 @@
         <StackLayout>
             <Label
                 HorizontalOptions="CenterAndExpand"
-                Text="Welcome to Xamarin.Forms!"
+                Text="Welcome to jenx.si Xamarin Forms NLog demo!"
                 VerticalOptions="CenterAndExpand" />
-            <Button Clicked="Button_Clicked" Text="log" />
+            <Button Clicked="LogEventButton_Clicked" Text="Log" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -13,7 +13,7 @@ namespace Jenx.XForms.Nlog
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void LogEventButton_Clicked(object sender, EventArgs e)
         {
             var logger = LogManager.GetCurrentClassLogger();
             logger.Info("Jenx.si was here");
